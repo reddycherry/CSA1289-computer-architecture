@@ -1,0 +1,8 @@
+mov ax,data
+mov ds,ax
+mov ax,0000h
+mov bx,0000h
+mov al,a
+mov bl,b
+div b
+mov c,ax
